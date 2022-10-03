@@ -1,0 +1,73 @@
+header {
+    width: 50%;
+    margin: auto;
+    height: 10%;
+}
+
+#titulo {
+    font-family: Libre Baskerville;
+    font-variant-caps: small-caps; font-size:3vw;
+    display: flex;
+   
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+#container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+
+
+}
+
+.foto_botella:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+#coctels {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+#foto {
+    padding-top: 6%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10% ;
+}
+
+#foto>img {
+    width: 50%
+}    
+article>div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#escudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 60vw;
+
+
+}
+
+img {
+    width: 7vw;
+}
+
+h1 {
+    font-weight: 5;
+    font-size: 5vw;
+}
